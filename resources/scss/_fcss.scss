@@ -1,0 +1,372 @@
+input,button{outline: none !important;}
+
+.navbar-brand{
+    font-family: 'Audiowide', cursive;
+    background: linear-gradient(to right, $theme1,$theme2);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.text-gradient{
+    background: linear-gradient(to right, $theme1,$theme2);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.category-text{
+    background: linear-gradient(to right, $theme1b,$theme2b);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    cursor: pointer;
+    transition: 0.5s;
+    font-size: 3rem;    
+
+    &:hover{
+        background: linear-gradient(to right, $theme1c,$theme2c);
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        transform: scale(1.1);
+    }
+}
+
+.container{
+    overflow: hidden;
+    position: relative;
+}
+
+.container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+p{
+    font-size: 14px;
+    color: $muted;
+    line-height: 30px;
+}
+
+
+// color start
+.fff{color: $fff;}
+.fff:hover{color: $fff;}
+.f-black{
+    color: $black;
+    &:hover{
+        color: $black;
+    }
+}
+.black:hover{color: $black}
+
+.f-color-1{
+    color: $theme1;
+    &:hover{color: $theme1;}
+}
+.f-bg-1{background: $theme1;}
+
+.f-color-2{
+    color: $theme2;
+    &:hover{color: $theme2;}
+}
+.f-bg-2{background: $theme2;}
+
+.muted{color: $muted;}
+
+.f-orange{color: $orange;}
+
+.f-hover-color-1:hover{color: $theme1;}
+.f-hover-color-2:hover{color: $theme2;}
+.f-hover-color-1b:hover{color: $theme1;}
+.f-hover-color-2b:hover{color: $theme2;}
+// color end
+
+
+// font start
+.fw-100{font-weight: 100;}
+.fw-200{font-weight: 200;}
+.fw-300{font-weight: 300;}
+.fw-400{font-weight: 400;}
+.fw-500{font-weight: 500;}
+.fw-600{font-weight: 600;}
+.fw-700{font-weight: 700;}
+.fw-800{font-weight: 800;}
+.fw-900{font-weight: 900;}
+
+.fs-12{font-size: 12px;}
+.fs-13{font-size: 13px;}
+.fs-14{font-size: 14px;}
+.fs-15{font-size: 15px;}
+.fs-16{font-size: 16px;}
+.fs-17{font-size: 17px;}
+.fs-18{font-size: 18px;}
+.fs-19{font-size: 19px;}
+.fs-20{font-size: 20px;}
+.fs-21{font-size: 21px;}
+
+.font-lg{font-size: 3rem;}
+
+.space-1{letter-spacing: 1px;}
+.space-2{letter-spacing: 2px;}
+.space-3{letter-spacing: 3px;}
+.space-4{letter-spacing: 4px;}
+// font end
+
+
+// sizing start
+.size-100{
+    width: 100%;
+    height: 100%;
+}
+
+.size-inherit{
+    width: inherit;
+    height: inherit;
+}
+
+.size-100px{
+    width: 100px;
+    height: 100px;
+}
+.size-70px{
+    width: 70px;
+    height: 70px;
+}
+.size-60px{
+    width: 60px;
+    height: 60px;
+}
+.size-50px{
+    width: 50px;
+    height: 50px;
+}
+
+.wh-100{
+    width: 100%;
+    height: 100vh;
+}
+// sizing end
+
+// button start
+.f-btn-1{
+    width: 140px;
+    height: 50px;
+    background: linear-gradient(45deg, $theme1,$theme2);
+    color: $fff;
+    border: none;
+    border-radius: 10px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: 300ms;
+    box-shadow: 0 0 10px 4px $theme1a, 0 0 8px 4px $theme2a;
+
+    &:hover{
+        box-shadow: 0 0 12px 4px $theme1b, 0 0 10px 3px $theme2b;
+    }
+}
+
+.f-btn-2{
+    width: 140px;
+    height: 50px;
+    background: none;
+    color: $theme2;
+    border: 2px solid $theme2;
+    border-radius: 10px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    transition: 300ms;
+
+    &:hover{
+        border: 1px solid $theme1;
+        background: $fff;
+        color: $theme1;
+        transform: scale(1.01);
+    }
+}
+
+.f-btn-sm{
+    border: 1px solid $theme2;
+    color: $theme2;
+    border-radius: 7px;
+
+    &:hover{
+        border: 1px solid $theme1;
+        background: $fff;
+        color: $theme1;
+        transform: scale(1.01);
+    }
+}
+
+.sm-btn-light{
+    width: 100px;
+    height: 40px;
+    color: $black;
+    border: none;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.767);
+    box-shadow: 0 0 10px 4px $theme1a;
+}
+
+.sm-btn-glow{
+    width: 100px;
+    height: 40px;
+    color: $fff;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(45deg, $theme1,$theme2);
+    box-shadow: 0 0 10px 4px $theme1a, 0 0 8px 4px $theme2a;
+}
+// button end
+
+// input start
+.search-box{
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 30px;
+    border-image: linear-gradient(45deg, $theme1, $theme2) 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+
+    .search{
+        width: 200px;
+        height: 40px;
+        padding: 10px;
+        background: none;
+        border: none;
+        color: $theme1;
+
+        &::placeholder{
+            color: $theme1;
+        }
+    }
+
+    .fa-search{
+        padding: 5px;
+    }
+}
+
+.f-form-box-1{
+    width: auto;
+    height: auto;
+    background: rgba(255, 255, 255, 0.514);
+    border-radius: 30px;
+    border: 1px solid $theme2a;
+
+    .f-form-1{
+        width: 100%;
+        height: 40px;
+        border: none;
+        background: none;
+        border-radius: 30px;
+        padding: 10px;
+        color: $muted;
+
+        &::placeholder{
+            color: $muted;
+        }
+    }
+    .f-textarea-1{
+        width: 100%;
+        height: 200px;
+        border: none;
+        background: none;
+        border-radius: 30px;
+        padding: 10px;
+        color: $muted;
+        outline: none;
+
+        &::placeholder{
+            color: $muted;
+        }
+    }
+
+}
+
+.f-form-2{
+    width: 300px;
+    height: 45px;
+    border: none;
+    background: none;
+    border-bottom: 1px solid $fff;
+    padding: 15px;
+    outline: none;
+    color: $black;
+    color: $fff;
+    font-weight: 500;
+
+    &::placeholder{
+        color: $black;
+        color: $fff;
+        font-weight: 500;
+    }
+    
+}
+// input end
+
+// border start
+.f-rounded-10{border-radius: 10px}
+.f-rounded-20{border-radius: 20px}
+.f-rounded-30{border-radius: 30px}
+.f-rounded-40{border-radius: 40px}
+.f-rounded-circle{border-radius: 50%;}
+
+.f-border-1{border: 1px solid $theme2;}
+.f-border-2{border: 2px solid $theme2;}
+.f-border-3{border: 3px solid $theme2;}
+
+.f-border-top{border-top:  1px solid $theme2;}
+.f-border-bottom{border-bottom:  1px solid $theme2;}
+.f-border-left{border-left:  1px solid $theme2;}
+.f-border-right{border-right:  1px solid $theme2;}
+// border end
+
+// other start
+.z-index-1{z-index: 1;}
+
+.bg-none{background: none !important;}
+
+.box{
+    position: relative;
+
+    .box-overlay{
+        width: 100%;
+        position: absolute;
+        top: 0;
+        background: linear-gradient(45deg,$theme1b, $theme2b);
+    }
+}
+
+.big-icon{
+    position: relative;
+    height: 70px;
+    width: 70px;
+    background: linear-gradient(45deg, $theme1q,$theme2q, $theme1q);
+    border-radius: 30%;
+    font-size: 2.5rem;
+
+    &::before{
+        content: "";
+        position: absolute;
+        width: 90%;
+        height: 90%;
+        background: linear-gradient(45deg, $theme1a,$theme2a);
+        border-radius: inherit;
+        top: 20%;
+        left: 20%;
+        z-index: -1;
+    }
+}
+// other end
+
+// this page start
+.hover-border-theme1:hover{
+    border: 1px solid $theme1b;
+    transition: 300ms;
+}
+.hover-border-theme2:hover{
+    border: 2px solid $theme1b;
+    transition: 300ms;
+}
+// this page end
