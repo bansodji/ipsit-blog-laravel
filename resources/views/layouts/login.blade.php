@@ -8,7 +8,7 @@
     </div>
     <div class="text-center">
         <a href="#" class="f-color-2">Forget Password?</a> <br>
-        <a href="#" class="f-color-2">Dont't  have an account? Sign up here.</a>
+        <span class="fff">Dont't  have an account? <a href="/register/signup" class="f-color-2">Sign up here.</a></span>
     </div>
     <div class='text-center mt-4'>
         <button class='sm-btn-glow'>Login</button>

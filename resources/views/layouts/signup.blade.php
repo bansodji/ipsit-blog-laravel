@@ -13,7 +13,7 @@
         <input placeholder='Confirm Password' class="f-form-2 mb-3" type="password">
     </div>
     <div class="text-center">
-        <a href="#" class="f-color-2">Already  have an account? <br> Login here.</a>
+        <span class='fff'>Already  have an account? <br> <a href="/register/login" class="f-color-2">Login here.</a></span>
     </div>
     <div class='text-center mt-4'>
         <button class='sm-btn-glow'>Sign up</button>

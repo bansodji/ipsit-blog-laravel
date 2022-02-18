@@ -404,7 +404,7 @@ p {
   border: none;
   background: none;
   border-bottom: 1px solid #f4f6fe;
-  padding: 15px;
+  padding: 3px;
   outline: none;
   color: #363F4D;
   color: #f4f6fe;
@@ -572,7 +572,7 @@ header .navbar {
 }
 header #hero {
   width: 100%;
-  height: 90vh;
+  height: 80vh;
 }
 
 @media (max-width: 992px) {

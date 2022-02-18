@@ -12,25 +12,29 @@
           <div class="collapse navbar-collapse" id="collapsibleNavId">
             <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
               <li class="nav-item mx-2">
-                <a class="nav-link f-black " href="#">Home</a>
+                <a class="nav-link f-black " href="/">Home</a>
               </li>
               <li class="nav-item mx-2">
-                <a class="nav-link f-black " href="#">About</a>
+                <a class="nav-link f-black " href="/about">About</a>
               </li>
               <li class="nav-item mx-2">
-                <a class="nav-link f-black " href="#">Blog</a>
+                <a class="nav-link f-black " href="/blog">Blog</a>
               </li>
               <li class="nav-item mx-2">
-                <a class="nav-link f-black " href="#">Services</a>
+                <a class="nav-link f-black " href="/services">Services</a>
               </li>
               <li class="nav-item mx-2">
-                <a class="nav-link f-black " href="#">Contact</a>
+                <a class="nav-link f-black " href="/contact">Contact</a>
               </li>
               <li class="nav-item mx-2 nav-btn">
-                <button class="sm-btn-light">Sign in</button>
+                <a href="/register/login">
+                  <button class="sm-btn-light">Sign in</button>
+                </a>
               </li>
               <li class="nav-item mx-2 nav-btn">
-                <button class="sm-btn-glow">Sign up</button>
+                <a href="/register/signup">
+                  <button class="sm-btn-glow">Sign up</button>
+                </a>
               </li>
             </ul>
           </div>
