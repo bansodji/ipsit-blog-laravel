@@ -13,7 +13,8 @@
                 </div>
             </div>
 
-            <div class="col-lg-7 hero-col-2">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-6 hero-col-2">
                 <div class="size-100">
                     <img src="/img/bg.svg" class="size-100" alt="">
                 </div>
